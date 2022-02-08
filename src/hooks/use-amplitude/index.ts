@@ -1,1 +1,1 @@
-export { useNavigation, useLinkTo } from '@react-navigation/native';
+export { getInstance} from 'amplitude-js';
