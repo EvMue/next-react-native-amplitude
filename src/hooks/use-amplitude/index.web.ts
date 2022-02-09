@@ -1,4 +1,4 @@
-export { getInstance } from 'amplitude-js'
+export { getInstance } from 'amplitude-js';
 // here
 
 // export function getInstance() {
