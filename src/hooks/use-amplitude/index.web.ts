@@ -1,9 +1,9 @@
-import { getInstance as getIn } from 'amplitude-js'
+import { getInstance } from 'amplitude-js'
 // here
 
-export function getInstance() {
+export function getIn() {
   console.log('get instance called')
-  const ampInstance = getIn()
+  const ampInstance = getInstance()
   // ampInstance.setLibrary('next-react-native-amplitude', '1.0.0');
   return ampInstance
 }
