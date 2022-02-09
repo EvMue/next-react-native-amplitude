@@ -3,6 +3,6 @@ import { getInstance, setLibrary } from 'amplitude-js'
 
 export function getInstance() {
   const ampInstance = getInstance()
-  setLibrary('next-react-native-amplitude', '1.0.0')
+  ampInstance.setLibrary('next-react-native-amplitude', '1.0.0')
   return ampInstance
 }
