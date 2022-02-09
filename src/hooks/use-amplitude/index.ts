@@ -1,6 +1,6 @@
 import { Amplitude } from '@amplitude/react-native'
 
-export function getInstance() {
+export function getIn() {
   const ampInstance = Amplitude.getInstance()
   return ampInstance
 }
