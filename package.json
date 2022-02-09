@@ -1,5 +1,5 @@
 {
-  "name": "react-native-next-amplitude",
+  "name": "next-react-native-amplitude",
   "version": "1.0.0",
   "description": "Will either use `amplitude-js` or `@amplitude/react-native` depending on the platform.",
   "sideEffects": true,
