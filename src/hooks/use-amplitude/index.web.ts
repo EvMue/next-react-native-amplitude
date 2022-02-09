@@ -1,12 +1,12 @@
-import { getInstance as getIn } from 'amplitude-js'
+export { getInstance } from 'amplitude-js'
 // here
 
-export function getInstance() {
-  console.log('get instance called')
-  const ampInstance = getIn()
-  // ampInstance.setLibrary('next-react-native-amplitude', '1.0.0');
-  return ampInstance
-}
+// export function getInstance() {
+//   console.log('get instance called')
+//   const ampInstance = getIn()
+//   // ampInstance.setLibrary('next-react-native-amplitude', '1.0.0');
+//   return ampInstance
+// }
 
 // import { useCallback, useEffect, useRef } from 'react'
 // import get from 'lodash.get'
