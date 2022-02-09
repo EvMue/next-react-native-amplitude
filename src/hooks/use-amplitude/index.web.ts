@@ -1,6 +1,9 @@
-export { getInstance} from '@amplitude/react-native';
+import { Amplitude } from '@amplitude/react-native'
 
-
+export function getInstance() {
+  const ampInstance = Amplitude.getInstance()
+  return ampInstance
+}
 // import { useCallback, useEffect, useRef } from 'react'
 // import get from 'lodash.get'
 // import Router, { useRouter } from 'next/router'
