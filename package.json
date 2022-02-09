@@ -6,7 +6,8 @@
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "repository": "https://github.com/EvMue/next-react-native-amplitude",
-  "author": "Evelyn Müller",
+  "homepage": "https://github.com/EvMue/next-react-native-amplitude",
+  "author": "Evelyn Mueller",
   "license": "MIT",
   "files": [
     "build"
@@ -45,5 +46,4 @@
     "react-native-safe-area-context": "^3.3.2",
     "react-native-screens": "^3.10.2"
   },
-  "homepage": "https://github.com/horizon-alpha/react-navigation-next-routing"
 }
