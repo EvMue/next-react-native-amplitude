@@ -1,9 +1,12 @@
-import { Amplitude } from '@amplitude/react-native'
+import { getInstance, setLibrary } from 'amplitude-js'
+// here
 
 export function getInstance() {
-  const ampInstance = Amplitude.getInstance()
+  const ampInstance = getInstance()
+  ampInstance.setLibrary('next-react-native-amplitude', '1.0.0')
   return ampInstance
 }
+
 // import { useCallback, useEffect, useRef } from 'react'
 // import get from 'lodash.get'
 // import Router, { useRouter } from 'next/router'
