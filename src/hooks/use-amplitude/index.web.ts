@@ -1,7 +1,7 @@
 // export { getInstance } from 'amplitude-js';
 // here
-const amplitude = require('amplitude-js');
-export default amplitude;
+// const amplitude = require('amplitude-js');
+// export default amplitude;
 
 // export default function getInstance() {
 //   console.log('get instance called');
@@ -9,6 +9,12 @@ export default amplitude;
 //   // ampInstance.setLibrary('next-react-native-amplitude', '1.0.0');
 //   return ampInstance;
 // }
+
+export function getInstance (){
+    const amplitude = require("amplitude-js");
+    const amplitudeInstance = amplitude.getInstance();
+    return amplitudeInstance;
+}
 
 // import { useCallback, useEffect, useRef } from 'react'
 // import get from 'lodash.get'
