@@ -1,5 +1,7 @@
-export { getInstance } from 'amplitude-js';
+// export { getInstance } from 'amplitude-js';
 // here
+const amplitude = require('amplitude-js');
+export default amplitude;
 
 // export function getInstance() {
 //   console.log('get instance called')
