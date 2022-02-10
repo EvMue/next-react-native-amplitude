@@ -16,7 +16,7 @@
     "preset": "jest-expo-enzyme"
   },
   "scripts": {
-    "build": "yarn build",
+    "build": "expo-module build",
     "clean": "expo-module clean",
     "test": "expo-module test",
     "prepare": "expo-module prepare",
