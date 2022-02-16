@@ -1,2 +1,2 @@
-import { Amplitude } from '@amplitude/react-native';
-export default Amplitude;
+const amplitude = require('./package/amplitude');
+export default amplitude;
