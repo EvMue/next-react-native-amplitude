@@ -1,6 +1,2 @@
-import { getInstance} from './hooks/use-amplitude';
-// // import * as NavigationTypes from './hooks/use-amplitude/types'
-export { getInstance }
-
-// const useAmplitude = require("./hooks/use-amplitude");
-// export default useAmplitude;
+import { Amplitude } from '@amplitude/react-native';
+export default Amplitude;

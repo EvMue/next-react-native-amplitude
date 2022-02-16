@@ -40,10 +40,6 @@
   },
   "dependencies": {
     "@amplitude/react-native": "^2.7.1",
-    "@react-navigation/native": "^6.0.8",
-    "amplitude-js": "^8.16.1",
-    "lodash.get": "^4.4.2",
-    "react-native-safe-area-context": "^3.3.2",
-    "react-native-screens": "^3.10.2"
+    "amplitude-js": "^8.16.1"
   }
 }
