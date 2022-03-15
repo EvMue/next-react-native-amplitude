@@ -1,1 +1,0 @@
-{"version":3,"file":"amplitude.js","sourceRoot":"","sources":["../../src/package/amplitude.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,yBAAyB,CAAC;AACpD,eAAe,SAAS,CAAC","sourcesContent":["import { Amplitude } from '@amplitude/react-native';\nexport default Amplitude;\n"]}
