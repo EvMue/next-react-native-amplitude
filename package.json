@@ -10,7 +10,7 @@
   "author": "Evelyn Mueller",
   "license": "MIT",
   "files": [
-    "build"
+    "src"
   ],
   "jest": {
     "preset": "jest-expo-enzyme"
