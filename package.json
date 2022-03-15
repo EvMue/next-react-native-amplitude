@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Will either use `amplitude-js` or `@amplitude/react-native` depending on the platform.",
   "sideEffects": true,
-  "main": "src/index.js",
-  "types": "src/index.d.ts",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "repository": "https://github.com/EvMue/next-react-native-amplitude",
   "homepage": "https://github.com/EvMue/next-react-native-amplitude",
   "author": "Evelyn Mueller",
@@ -19,6 +19,7 @@
     "build": "expo-module build",
     "clean": "expo-module clean",
     "test": "expo-module test",
+    "prepare": "expo-module prepare",
     "prepublishOnly": "expo-module prepublishOnly",
     "expo-module": "expo-module"
   },
