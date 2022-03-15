@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../src/index.ts"],"names":[],"mappings":"AAAA,MAAM,SAAS,GAAG,OAAO,CAAC,qBAAqB,CAAC,CAAC;AACjD,eAAe,SAAS,CAAC,OAAO,CAAC","sourcesContent":["const amplitude = require('./package/amplitude');\nexport default amplitude.default;\n"]}

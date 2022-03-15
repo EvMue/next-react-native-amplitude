@@ -1,0 +1,1 @@
+{"version":3,"file":"amplitude.web.js","sourceRoot":"","sources":["../../src/package/amplitude.web.ts"],"names":[],"mappings":"AAAA,MAAM,SAAS,GAAG,OAAO,CAAC,cAAc,CAAC,CAAC;AAC1C,eAAe,SAAS,CAAC,OAAO,CAAC","sourcesContent":["const amplitude = require('amplitude-js');\nexport default amplitude.default;\n"]}
